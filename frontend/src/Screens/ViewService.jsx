@@ -4,7 +4,7 @@ import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { LOCAL_URL } from '../utils/Constant';
-import { Context } from '../context/ContextProvider';
+import { Context } from '../Context/ContextProvider';
 
 const ViewService = () => {
   const navigate = useNavigate();

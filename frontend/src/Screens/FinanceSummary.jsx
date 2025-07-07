@@ -7,7 +7,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch, faCalendar, faCheck, faMoneyBillWave, faArrowTrendUp, faArrowTrendDown } from "@fortawesome/free-solid-svg-icons";
 import { LOCAL_URL } from "../utils/Constant";
-import { Context } from "../context/ContextProvider";
+import { Context } from "../Context/ContextProvider";
 
 const FinanceSummary = () => {
   const { formatCurrency } = useContext(Context);

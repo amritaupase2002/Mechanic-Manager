@@ -4,7 +4,7 @@ import html2canvas from "html2canvas";
 import { format } from "date-fns";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faShareAlt, faPrint, faHome } from "@fortawesome/free-solid-svg-icons";
-import { Context } from "../context/ContextProvider";
+import { Context } from "../Context/ContextProvider";
 
 const Invoice = () => {
   const { formatCurrency } = useContext(Context);

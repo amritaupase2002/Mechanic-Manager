@@ -5,7 +5,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { LOCAL_URL } from "../utils/Constant";
 import { getDateRange } from "../utils/dateUtils";
-import { Context } from "../context/ContextProvider";
+import { Context } from "../Context/ContextProvider";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChartPie, faArrowUp, faArrowDown, faCalendarAlt } from "@fortawesome/free-solid-svg-icons";
 

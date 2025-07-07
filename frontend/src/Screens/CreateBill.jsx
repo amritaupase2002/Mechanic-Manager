@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { LOCAL_URL } from '../utils/Constant';
-import { Context } from '../context/ContextProvider';
+import { Context } from '../Context/ContextProvider';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faCheck, faClose, faCheckCircle, faExclamationCircle } from '@fortawesome/free-solid-svg-icons';
 

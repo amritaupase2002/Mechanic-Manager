@@ -3,7 +3,7 @@ import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import moment from 'moment';
 import axios from 'axios';
 import { LOCAL_URL } from '../utils/Constant';
-import { Context } from '../context/ContextProvider';
+import { Context } from '../Context/ContextProvider';
 
 const CustomerDetails = () => {
   const { formatCurrency } = useContext(Context);

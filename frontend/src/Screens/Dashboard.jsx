@@ -2,7 +2,7 @@ import React, { useEffect, useState, useCallback, useMemo, useContext } from 're
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { LOCAL_URL } from '../utils/Constant';
-import { Context } from '../context/ContextProvider';
+import { Context } from '../Context/ContextProvider';
 import { calculateDateRanges, processServiceData } from '../utils/dashboardUtils';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSpa, faRedo, faExclamationCircle } from '@fortawesome/free-solid-svg-icons';

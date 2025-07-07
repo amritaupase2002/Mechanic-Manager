@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import AppNavigator from './Navigation/AppNavigator'; 
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import ContextProvider from './context/ContextProvider';
+import ContextProvider from './Context/ContextProvider';
 
 export default function App() {
   useEffect(() => {
