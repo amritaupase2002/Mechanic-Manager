@@ -6,7 +6,7 @@ import ContextProvider from './context/ContextProvider';
 
 export default function App() {
   useEffect(() => {
-    // For web, we can set the theme via CSS or document attributes
+    
     document.documentElement.setAttribute('data-theme', 'light');
     // Alternatively, you could add a light class to the body
     document.body.classList.add('dark-theme');
